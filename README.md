@@ -1,31 +1,48 @@
+<img width="100%" alt="HACKHAZARDS '26 Banner" src="https://github.com/user-attachments/assets/c698b2cd-da84-4cb0-9276-125c6a7244aa" />
+
 # 🚀 PYQ Pattern Analyzer
+> **Smart Study Planner & Revision Intelligence for Engineering Students**
 
-> **AI-Powered Exam Intelligence & Revision Prioritization for Engineering Students**
-
-[![Live Demo](https://img.shields.io/badge/Demo-Live%20App-brightgreen.svg)](https://heavenly-exam-intel-path.base44.app)
-[![Platform: Base44](https://img.shields.io/badge/Platform-Base44%20Fullstack-blue.svg)](https://base44.com)
-[![Target: MAKAUT / Indian Universities](https://img.shields.io/badge/Domain-Engineering%20Exams-orange.svg)]()
-[![Multilingual](https://img.shields.io/badge/Languages-English%20%7C%20Hindi%20%7C%20Bengali-purple.svg)]()
-
----
-
-## 📌 The Problem
-Engineering students preparing for university semester exams (specifically across tier-2 and tier-3 colleges) often struggle with syllabus overload. Previous Year Questions (PYQs) hold the recurring patterns, but manually cross-referencing 5+ years of papers across 6–8 subjects is time-consuming and prone to misjudgment. 
-
-Furthermore, existing study resources are overwhelmingly English-only, creating an additional comprehension barrier for students who grasp technical concepts better in regional languages.
+[![Live App](https://img.shields.io/badge/🚀%20Launch-Live%20App-brightgreen?style=for-the-badge)](https://heavenly-exam-intel-path.base44.app)
+[![Built with Base44](https://img.shields.io/badge/Platform-Base44-blue?style=for-the-badge)](https://base44.com)
+[![Hackathon](https://img.shields.io/badge/HACKHAZARDS-'26-orange?style=for-the-badge)]()
+[![Languages](https://img.shields.io/badge/Languages-English%20%7C%20Hindi%20%7C%20Bengali-purple?style=for-the-badge)]()
 
 ---
 
-## 💡 The Solution
-**PYQ Pattern Analyzer** automates question paper analysis by ingesting raw PYQ papers, isolating underlying syllabus topics, evaluating frequency weightage, and generating an actionable revision roadmap:
-* **Weighted Topic Priority:** Categorizes recurring topics into **High, Medium, and Low** priority tiers based on question repetition.
-* **Multilingual Concept Assistant:** Answers doubts and clarifies tricky exam topics in **English, Hindi, and Bengali**.
-* **Subject Workspace:** Allows students to save, organize, and track their question analysis across semesters.
-* **Isolated User State:** Secure per-user accounts ensuring individual study plans remain private.
+## 🌐 Quick Access
+👉 **Direct App Link:** [https://heavenly-exam-intel-path.base44.app](https://heavenly-exam-intel-path.base44.app)  
+*(No local setup required. Open the link, create an account, and start analyzing your previous year questions immediately.)*
 
 ---
 
-## 🛠️ System Architecture
+## 📌 Problem & Domain
+**Theme:** Learning & Knowledge Systems  
+
+Indian engineering students preparing for semester exams frequently spend time studying low-weightage topics while missing high-frequency ones. Analyzing 5+ years of previous year question papers (PYQs) manually across multiple subjects is tedious and error-prone. 
+
+This challenge is magnified for students in tier-2 and tier-3 colleges who are more comfortable grasping difficult technical concepts in regional languages.
+
+---
+
+## 🎯 Objective & Value Provided
+* **Target Users:** Undergraduate engineering students preparing for university semester exams.
+* **Core Pain Point:** Not knowing which topics repeat consistently across exam cycles.
+* **The Solution:** Students upload PDFs or paste question text; the platform clusters recurring topics and stratifies them into **High, Medium, and Low** priority tiers. Students can also clarify conceptual doubts directly in **Hindi or Bengali**.
+
+---
+
+## ✨ Key Features
+- 📄 **Flexible Input:** Upload question paper PDFs or paste raw text.
+- 📊 **Smart Priority Ranking:** Automatically scores and classifies recurring topics (High, Medium, Low) based on frequency.
+- 🗣️ **Multilingual AI Assistant:** Clarify doubts and study concepts in **English, Hindi, or Bengali**.
+- 📁 **Subject Workspaces:** Save and revisit past question analyses organized by semester and subject.
+- 🔒 **Per-User Authentication:** Secure individual student accounts to keep study workspaces private.
+- ⭐ **Feedback Loop:** Built-in rating mechanism for continuous user experience improvements.
+
+---
+
+## 🧠 System Architecture
 
 ```mermaid
 flowchart TD
